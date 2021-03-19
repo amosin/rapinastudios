@@ -179,3 +179,8 @@ nav {
   outline: none;
   box-shadow: inset 0 0 1px 0px violet;
 }
+.nftlogo {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}

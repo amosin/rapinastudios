@@ -1,8 +1,9 @@
 import React from 'react'
 import Victor from '../assets/victor.png'
+import Andre from '../assets/andre.png'
 import Logo from '../assets/logo.svg'
 import Carousel from "react-elastic-carousel";
-import Item from "./CarouselStyle";
+import Item from "./CarouselAboutStyle";
 
 const About = () => {
     return (
@@ -35,8 +36,23 @@ const About = () => {
                     </div>
                 </div>
             </Item>
+            <Item>
+            <div className="main-info">
+                <br></br>
+                <div className="aboutLeft">
+                    <img className="ceo-logo" src={Andre}/>
+                </div>
+                <div className="aboutRight">
+                    <h1>Andre Mosin (Full Stack Blockchain Developer)</h1> <br />
+                    <h3><a href="https://www.linkedin.com/in/andremosin/"> More information...</a></h3>
+                </div>
+            </div>
+            </Item>
             </Carousel>
             </div>
+
+
+
 
         </div>
     )
