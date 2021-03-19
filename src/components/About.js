@@ -32,7 +32,7 @@ const About = () => {
                     </div>
                     <div className="aboutRight">
                         <h1>AchtisticMan (CEO, Artist and Programer)</h1> <br />
-                        <h3> My name is Victor Falcão, I am a character designer and digital illustrator and creator of rapina studios, (an Art and Games studio focused on the “world of cryptocurrencies” ) in addition to being also a big enthusiast of blockchain technology, mainly games and nfts. with all my experience i intend to produce with my team simple, dynamic and fun content in order to facilitate people's access and learning to blockchain technology through art and games. </h3>
+                        <h3> My name is Victor Falcão, I am a character designer and digital illustrator and creator of Rapina studios, (an Art and Games studio focused on the “world of cryptocurrencies” ) in addition to being also a big enthusiast of blockchain technology, mainly games and nfts, using all my experience i intend to produce with my team simple, dynamic and fun content in order to facilitate people's access and learning to blockchain technology through art and games. </h3>
                     </div>
                 </div>
             </Item>
