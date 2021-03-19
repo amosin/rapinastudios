@@ -111,8 +111,10 @@ nav {
 }
 
 .footer-right {
+  display: flex;
   margin-right: 10px;
-  justify-content: flex-start;
+  justify-content: space-between;
+  width: 150px;
 }
 
 @media (max-width: 767px) {
