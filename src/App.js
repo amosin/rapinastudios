@@ -11,23 +11,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
     <>
-        <Particles
-    params={{
-      particles: {
-        number: {
-          value: 30
-        },
-        shape: {
-          type: "square",
-          stroke: {
-            width: 2,
-            color: "#000E40"
-
-          }
-        }
-      }
-    }}
-    />
     <Router>
     <Navbar/>
       <Switch>
