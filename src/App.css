@@ -1,38 +1,158 @@
-.App {
+.desktop-visible {
+  display: none;
+}
+
+body {
+  background-color: #ffb000;
+  font-family: GoodTimesRg-Regular, sans-serif;
+  font-weight: 100;
+}
+
+nav {
+  z-index: 2;
+}
+
+.main-nav-active {
+  color: #000000;
+}
+@font-face {
+  font-family: 'GoodTimesRg-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('GoodTimesRg-Regular'),
+    url('./assets/goodtimesrg.woff') format('woff');
+}
+
+.bg-dark {
+  background-color: #ff8800 !important;
+  filter: drop-shadow(0px 4px 4px #000000);
+}
+
+.btn {
+  letter-spacing: 0.0475rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  border-color: #000000;
+}
+
+.navbar-nav > li a:hover {
+  background-color: #ffb000;
+}
+
+/**************** CONTENT ******************/
+.content-wrapper {
+  position: relative;
+  background-color: #ffb000;
+  background-size: cover;
+  height: 50em;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .main-info {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+  }
+}
+
+.main-left {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-right {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.main-logo {
+  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 220px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.image-intro {
+  z-index: 2;
+}
+
+.footer-div {
+  z-index: 2;
+  padding: 3px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  background-color: #ff8800 !important;
+  width: 100%;
+  height: 60px;
+}
+
+.footer-left {
+  padding: 10px;
+  margin-left: 10px;
+  justify-content: flex-start;
+}
+
+.footer-right {
+  margin-right: 10px;
+  justify-content: flex-start;
+}
+
+@media (max-width: 767px) {
+  .main-info {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.tsparticles-canvas-el {
+  position: absolute;
+  top: 1;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.aboutLeft {
+  z-index: 2;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.aboutRight {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ceo-logo {
+  z-index: 2;
+  margin-top: 120px;
 }
