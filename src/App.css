@@ -186,3 +186,8 @@ nav {
   margin-top: 20px;
   justify-content: center;
 }
+
+.collectionName {
+  text-align: center;
+  margin-top: 5px;
+}

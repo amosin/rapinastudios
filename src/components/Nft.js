@@ -3,6 +3,7 @@ import Carousel from "react-elastic-carousel";
 import Item from "./CarouselNftStyle";
 import Nft1 from "../assets/nft1.svg";
 import NftLogo from "../assets/nft.svg"
+import Rpngoodtimes from "../assets/rpngoodtimes.png"
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -22,7 +23,9 @@ const Nft = () => {
             breakPoints={breakPoints}
             >
             <Item>
-                <img className="nft1" src={Nft1} alt="Rapina Studios" />
+                
+                <a href="https://opensea.io/assets/rapina-collections?search[stringTraits][0][name]=Collection&search[stringTraits][0][values][0]=Rapina%20Good%20Times" target="_blank" rel="noreferrer"><img className="nft1" src={Rpngoodtimes} alt="Rapina Good Times" /> <div className="collectionName"> <h3> Good Times </h3> </div> </a>
+               
             </Item>
             <Item>
                 <img className="nft2" src={Nft1} alt="Rapina Studios" />

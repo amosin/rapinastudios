@@ -25,7 +25,7 @@ const Navbar = () => {
         </NavLink>
         
         <li className="nav-item">
-        <a className="nav-link btn btn-outline-primary rounded-pill" target="_blank" href="https://rapinastudios.medium.com/">NEWS</a>
+        <a className="nav-link btn btn-outline-primary rounded-pill" target="_blank" rel="noreferrer" href="https://rapinastudios.medium.com/">NEWS</a>
         </li>
 
         <NavLink exact to="/nft">
