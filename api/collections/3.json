@@ -1,0 +1,15 @@
+{
+    "name":"Yellow Nudity",
+    "external_url":"http://rapinastudios.com/nft",
+    "image":"https://ipfs.io/ipfs/QmVrw4SRqJmaztTZMoeAkftyBr9DM6hEtjbQs36sRTnp9L",
+    "description":"Yellow Nudity",
+    "attributes":[{"trait_type":"Collection","value":"Rapina Good Times"},
+        {"trait_type":"Artist","value":"Victor Falcão"},
+        {"trait_type":"Origin","value":"Brazil"},
+        {"trait_type":"Website","value":"RapinaStudios.com"},
+        {"trait_type":"Tag","value":"Art"},
+        {"trait_type":"Type","value":"SVG"},
+        {"trait_type":"Serial Number","value":"t00000003"},
+        {"display_type":"date","trait_type":"release","value":1617079027},
+        {"trait_type":"Max Supply","value":"9"}]
+}
